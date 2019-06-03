@@ -1,16 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Photon",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Photon by HTML5 UP"
+    title: 'Osaka RubyKaigi 02',
+    author: 'RubyKansai',
+    description: 'Regional RubyKaigi at Osaka 02',
+    keywords: 'Regional RubyKaigi Osaka RubyKansai Ruby',
   },
+  pathPrefix: '/osaka02',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'osaka-rubyKaigi-02',
+        short_name: 'osaka02',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
@@ -19,6 +21,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
