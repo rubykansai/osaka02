@@ -40,6 +40,7 @@ const Homepage = () => {
               <br />
               大阪Ruby会議02 は多様なRubyに関わる方々の公演です。
             </p>
+            <p>"Above All, Be Cool"</p>
           </div>
           <div className="col-6">
             <span className="image fit">
@@ -204,7 +205,7 @@ const Homepage = () => {
           <ul className="actions uniform">
             <li>
               <a href="#" className="button">
-                Takashi Ogomori
+                ogom
               </a>
             </li>
             <li>
@@ -219,7 +220,7 @@ const Homepage = () => {
             </li>
             <li>
               <a href="#" className="button">
-                Kiyohide Hori
+                khori
               </a>
             </li>
           </ul>
