@@ -25,7 +25,8 @@ const Header = () => {
               className="button scrolly"
               target="_blank"
             >
-              Register Now
+              {/* Register Now */}
+              Coming Soon
             </a>
           </li>
         </ul>
