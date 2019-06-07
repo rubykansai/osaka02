@@ -40,7 +40,14 @@ const Homepage = () => {
               <br />
               大阪Ruby会議02 は多様なRubyに関わる方々の公演です。
             </p>
-            <p>"Above All, Be Cool"</p>
+            <p>
+              テーマは "Above All, Be Cool"
+              です。みなさんのかっこいいを共有してください。 CFPの登録は
+              <a href="https://rubykansai.doorkeeper.jp/events/92963/">
+                こちら
+              </a>
+              です。 たくさんの発表の応募をお待ちしております。
+            </p>
           </div>
           <div className="col-6">
             <span className="image fit">
@@ -166,9 +173,9 @@ const Homepage = () => {
             </span>
             <h5>株式会社エイチーム</h5>
             <p className="align-left sponsors-text">
-              エイチームは、ゲーム/アプリ・WebサービスやECサービスを手掛ける総合ITベンチャー企業。Ruby
+              エイチームは、ゲーム/アプリ・WebサービスやECサービスなど様々なビジネス領域を展開する総合IT企業。Ruby
               on
-              Railsを用いたバックエンド開発やReactjsやVuejsといったフロントエンド開発を自社内で100%開発し、様々なサービスを運用しております。
+              Railsを用いたバックエンド開発やReactjsやVuejsといったフロントエンド開発を自社内で100%開発しております。
             </p>
           </div>
           <div className="col-3">
