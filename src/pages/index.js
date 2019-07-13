@@ -11,7 +11,7 @@ import rubydev from '../assets/images/sponsor/rubydev.png'
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import circle01 from '../assets/images/circle01.svg'
 
 const Homepage = () => {
   const siteTitle = 'Osaka RubyKaigi 02'
@@ -60,26 +60,9 @@ const Homepage = () => {
       <section id="two" className="main style2">
         <div className="grid-wrapper">
           <div className="col-6">
-            <ul className="major-icons">
-              <li>
-                <span className="icon style1 major fa-code" />
-              </li>
-              <li>
-                <span className="icon style2 major fa-bolt" />
-              </li>
-              <li>
-                <span className="icon style3 major fa-camera-retro" />
-              </li>
-              <li>
-                <span className="icon style4 major fa-cog" />
-              </li>
-              <li>
-                <span className="icon style5 major fa-desktop" />
-              </li>
-              <li>
-                <span className="icon style6 major fa-calendar" />
-              </li>
-            </ul>
+            <span className="image fit">
+              <img src={circle01} alt="" />
+            </span>
           </div>
           <div className="col-6">
             <header className="major">
@@ -106,12 +89,12 @@ const Homepage = () => {
                   <tr>
                     <td>10:30</td>
                     <td>Keynote</td>
-                    <td />
+                    <td>-</td>
                   </tr>
                   <tr>
                     <td>11:00</td>
                     <td>TechTalk</td>
-                    <td />
+                    <td>-</td>
                   </tr>
                   <tr>
                     <td>12:00</td>
@@ -120,7 +103,7 @@ const Homepage = () => {
                   <tr>
                     <td>13:00</td>
                     <td>Lightning Talks</td>
-                    <td />
+                    <td>-</td>
                   </tr>
                   <tr>
                     <td>15:00</td>
@@ -129,7 +112,7 @@ const Homepage = () => {
                   <tr>
                     <td>15:30</td>
                     <td>Lightning Talks</td>
-                    <td />
+                    <td>-</td>
                   </tr>
                   <tr>
                     <td>17:00</td>
@@ -209,26 +192,18 @@ const Homepage = () => {
           <header className="major">
             <h2>Team</h2>
           </header>
-          <ul className="actions uniform">
+          <ul className="major-icons">
             <li>
-              <a href="#" className="button">
-                ogom
-              </a>
+              <span className="icon major">ogom</span>
             </li>
             <li>
-              <a href="#" className="button">
-                honeniq
-              </a>
+              <span className="icon major">honeniq</span>
             </li>
             <li>
-              <a href="#" className="button">
-                islands5
-              </a>
+              <span className="icon major">islands5</span>
             </li>
             <li>
-              <a href="#" className="button">
-                khori
-              </a>
+              <span className="icon major">khori</span>
             </li>
           </ul>
         </div>
