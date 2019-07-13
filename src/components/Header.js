@@ -21,12 +21,11 @@ const Header = () => {
         <ul className="actions">
           <li>
             <a
-              href="https://rubykansai.doorkeeper.jp/"
+              href="https://rubykansai.doorkeeper.jp/events/94711"
               className="button scrolly"
               target="_blank"
             >
-              {/* Register Now */}
-              Coming Soon
+              Register Now
             </a>
           </li>
         </ul>
