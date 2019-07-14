@@ -205,6 +205,9 @@ const Homepage = () => {
             <li>
               <span className="icon major">khori</span>
             </li>
+            <li>
+              <span className="icon major">ayatanet</span>
+            </li>
           </ul>
         </div>
       </section>
