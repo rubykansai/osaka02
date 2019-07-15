@@ -28,7 +28,7 @@ const Homepage = () => {
           {
             property: 'og:image',
             content:
-              'https://raw.githubusercontent.com/rubykansai/osaka01/master/src/assets/images/og.png',
+              'https://raw.githubusercontent.com/rubykansai/osaka02/master/src/assets/images/og.png',
           },
         ]}
       />
