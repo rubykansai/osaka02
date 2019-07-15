@@ -25,6 +25,11 @@ const Homepage = () => {
         meta={[
           { name: 'description', content: siteDescription },
           { name: 'keywords', content: siteKeywords },
+          {
+            property: 'og:image',
+            content:
+              'https://raw.githubusercontent.com/rubykansai/osaka01/master/src/assets/images/og.png',
+          },
         ]}
       />
 
@@ -204,6 +209,9 @@ const Homepage = () => {
             </li>
             <li>
               <span className="icon major">khori</span>
+            </li>
+            <li>
+              <span className="icon major">ayatanet</span>
             </li>
           </ul>
         </div>
