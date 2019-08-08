@@ -26,32 +26,34 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-378a544792a285c58b4b.js"
+    "url": "webpack-runtime-c8f8d620eb12c5d170aa.js"
   },
   {
-    "url": "app-3d5d6cf4fe934b4785b9.js"
+    "url": "app-2b3a6eebebe5a7d11cff.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-2cd8ca0796bea885d609.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-82aa636f6d2dcb9d495c.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a5d2581301ce04ab9b5c6071303ab814"
+    "revision": "e3071144fd1bb83f3e36b79fb1f5ba92"
   },
   {
-    "url": "styles.1f20cc4cd82dbcaaf229.css"
+    "url": "styles.244814574af6f375c963.css"
   },
   {
-    "url": "styles-a37715dfa09298cc11eb.js"
+    "url": "styles-f75fce474550a25affde.js"
   },
   {
-    "url": "component---src-pages-404-js-2fe71fb84b6cd7957c3f.js"
+    "url": "component---src-pages-404-js-e9ec60cdba977f8d9021.js"
   },
   {
-    "url": "static/d/285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8.json"
+    "url": "page-data/404.html/page-data.json",
+    "revision": "066fdba5bda3b53506d598c5aae9bc1e"
   },
   {
-    "url": "static/d/604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8.json"
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "1decd628302a3c97fcd3e681ee4c5300"
   },
   {
     "url": "manifest.webmanifest",
@@ -62,6 +64,7 @@ workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, workbox.strategies.cacheFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, workbox.strategies.networkFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, workbox.strategies.staleWhileRevalidate(), 'GET');
 
