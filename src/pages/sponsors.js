@@ -109,6 +109,11 @@ const Sponsors = props => (
                   </a>
                 </span>
                 <h3>株式会社インゲージ</h3>
+                <p>
+                  インゲージは、Ruby on
+                  Railsで開発したコミュニーケーションクラウド「Re:lation（リレーション）」を提供しています。Re:lation
+                  はメール・チャット・LINEなど複数のチャンネルから来る問い合わせを一元管理・共有できるサービスです。
+                </p>
               </div>
             </div>
           </div>
@@ -123,22 +128,32 @@ const Sponsors = props => (
             <div className="col-5">
               <div className="box">
                 <span className="image fit sponsor">
-                  <a href="https://ingage.co.jp/" target="_blank">
+                  <a href="https://rubykansai.doorkeeper.jp/" target="_blank">
                     <img src={rubykansai} alt="" />
                   </a>
                 </span>
                 <h3>Ruby関西</h3>
+                <p>
+                  Ruby関西 は Ruby関西 勉強会 や 関西Ruby會議 、 Rails
+                  勉強会＠関西 など、関西での Ruby
+                  に関するイベントの主体となるコミュニティです。
+                </p>
               </div>
             </div>
 
             <div className="col-5">
               <div className="box">
                 <span className="image fit sponsor">
-                  <a href="https://ingage.co.jp/" target="_blank">
+                  <a href="https://naniwarb.doorkeeper.jp/" target="_blank">
                     <img src={naniwarb} alt="" />
                   </a>
                 </span>
                 <h3>naniwa.rb</h3>
+                <p>
+                  なにわ
+                  のものづくりコミュニティーです。電子工作やアクセサリーを作ります。
+                  Ruby のプログラミングでマイコンを動かすこともできます。
+                </p>
               </div>
             </div>
           </div>
