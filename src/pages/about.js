@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import OpenGraph from '../components/OpenGraph'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
@@ -9,10 +8,7 @@ import pic10 from '../assets/images/pic10.jpg'
 
 const About = props => (
   <Layout>
-    <Helmet>
-      <title>About - Osaka RubyKaigi 02</title>
-      <meta name="description" content="About Page" />
-    </Helmet>
+    <OpenGraph title="About"></OpenGraph>
 
     <section id="banner" className="style2">
       <div className="inner">

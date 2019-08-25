@@ -1,15 +1,11 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-
+import OpenGraph from '../components/OpenGraph'
 import symbol from '../assets/images/symbol.svg'
 
 const Team = props => (
   <Layout>
-    <Helmet>
-      <title>Team - Osaka RubyKaigi 02</title>
-      <meta name="description" content="Team Page" />
-    </Helmet>
+    <OpenGraph title="Team"></OpenGraph>
 
     <section id="banner" className="style2">
       <div className="inner">
