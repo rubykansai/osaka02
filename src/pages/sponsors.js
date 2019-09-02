@@ -1,6 +1,6 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import OpenGraph from '../components/OpenGraph'
 
 import agileware from '../assets/images/sponsors/agileware.png'
 import ateam from '../assets/images/sponsors/ateam.png'
@@ -12,10 +12,7 @@ import naniwarb from '../assets/images/sponsors/naniwarb.png'
 
 const Sponsors = props => (
   <Layout>
-    <Helmet>
-      <title>Sponsors - Osaka RubyKaigi 02</title>
-      <meta name="description" content="Sponsors Page" />
-    </Helmet>
+    <OpenGraph title="Sponsors"></OpenGraph>
 
     <section id="banner" className="style2">
       <div className="inner">
