@@ -86,7 +86,10 @@ const Schedule = props => (
                   <td>30</td>
                   <td>Keynote</td>
                   <td>西見 公宏</td>
-                  <td>-</td>
+                  <td>
+                    プログラミングを一生の仕事にする
+                    〜顧問プログラマを8年続けて分かったこと〜
+                  </td>
                 </tr>
                 <tr>
                   <td>12:00 - 13:30</td>
